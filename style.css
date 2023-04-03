@@ -516,7 +516,7 @@ textarea {
 /*intro styles start*/
 .intro{
     height: 100vh;
-    background: url(/assets/jpg/intro.bg.jpg) no-repeat;
+    background: url(/assets/jpg/introbg.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -571,7 +571,7 @@ textarea {
     max-width: 1024px;
     margin: 0 auto;
     position: relative;
-    background-image: url(/assets/png/фон\ каталог.png);
+    background-image: url(/assets/png/фонкаталог.png);
 }
 .katalog_title{
     font-family: 'Anybody';
