@@ -571,7 +571,7 @@ textarea {
     max-width: 1024px;
     margin: 0 auto;
     position: relative;
-    background-image: url(/assets/png/фонкаталог.png);
+    background-image: url(assets/png/фонкаталог.png);
 }
 .katalog_title{
     font-family: 'Anybody';
