@@ -516,7 +516,7 @@ textarea {
 /*intro styles start*/
 .intro{
     height: 100vh;
-    background: url(/assets/jpg/introbg.jpg) no-repeat;
+    background: url(./assets/jpg/introbg.jpg) no-repeat;
     background-size: cover;
 }
 
