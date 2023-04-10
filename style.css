@@ -468,6 +468,9 @@ textarea {
 .header_item{
     margin-right: 40px;
 }
+.header_item1{
+    margin-right: 40px;
+}
 .header_link1{
     font-size: 18px;
     line-height: 80px;
@@ -898,6 +901,44 @@ textarea {
     left: 50px;
     margin-bottom: 50px;
 }
+.header_list_katalog{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.header_link_katalog_active{
+    opacity: .75;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #7E6327;
+    text-decoration:none ;
+    filter: drop-shadow(16px 16px 20px #7E6327);
+}
+.header_item1{
+    margin-right: 7px;
+    text-align: center;
+}
+.header_link_katalog{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 80px;
+    color: #7E6327;
+}
+.info2{
+    position: relative;
+    left: 0px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 35px;
+    padding: 0px 40px;
+    text-align: center;
+   }
 .intro-title{
     padding-right: 60px;
     font-family: 'Great Vibes';
@@ -1030,6 +1071,42 @@ textarea {
         top: 250px;
         left: 20px;
         margin-bottom: 50px;
+    }
+    .header_link_katalog_active{
+        opacity: .75;
+        font-family: 'Halant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: #7E6327;
+        text-decoration:none ;
+        filter: drop-shadow(16px 16px 20px #7E6327);
+    }
+    .info2{
+        position: relative;
+        left: 0px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 35px;
+        padding: 0px 40px;
+        text-align: center;
+       }
+    .header_nav1{
+        text-align: center;
+    }
+    .header_list_katalog{
+        display: flex;
+        flex-wrap: wrap;
+       text-align: center;
+    }
+    .header_link_katalog{
+        font-family: 'Halant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #7E6327;
     }
     .intro-title{
         padding-right: 60px;
