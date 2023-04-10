@@ -434,6 +434,13 @@ textarea {
     max-width: 1024px;
     margin: 0 auto;
 }
+.wrapper1{
+    max-width: 1024px;
+    margin: 0 auto;
+    background: url(assets/png/фонкаталог.png) no-repeat;
+    background-size: cover;
+
+}
 /*header styles start*/
 .header{
     position:absolute;
@@ -452,6 +459,12 @@ textarea {
     display: flex;
     flex-wrap: wrap;
 }
+.header_list_katalog{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
 .header_item{
     margin-right: 40px;
 }
@@ -467,6 +480,30 @@ textarea {
     line-height: 80px;
     color: black;
     text-decoration: none;
+}
+.header_link_katalog{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 80px;
+    color: #7E6327;
+}
+.header_link_katalog_active{
+    opacity: .75;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #7E6327;
+    text-decoration:none ;
+    filter: drop-shadow(16px 16px 20px #7E6327);
+}
+.header_link_katalog:hover, .header_link_latalog:active{
+    opacity: .75;
+    color: #7E6327;
+    text-decoration:none ;
+    filter: drop-shadow(16px 16px 20px #7E6327);
 }
 .header_link:hover, .header_link:active{
     opacity: .75;
@@ -520,6 +557,7 @@ textarea {
     background-size: cover;
 }
 
+
 .info{
     position: relative;
     top: 250px;
@@ -528,6 +566,28 @@ textarea {
     right: 82px;
     margin-bottom: 50px;
 }
+.info2{
+    position: relative;
+    left: 0px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 35px;
+    padding: 0px 40px;
+    text-align: center;
+   }
+   .info2{
+       grid-column: span 1;
+   }
+   
+   .info2_photo{
+       margin-bottom: 35px;
+   
+   }
+   .info2_photo:hover, .katalog_card_photo:active{
+       opacity: .40;
+   
+   }
 .intro-title{
     max-width: 800px;
     font-family: 'Great Vibes';
@@ -573,6 +633,12 @@ textarea {
     position: relative;
     background-image: url(assets/png/фонкаталог.png);
 }
+.wrapper_katalog2{
+    max-width: 1024px;
+    margin: 0 auto;
+    position: cover;
+    background-image: url(assets/png/фонкаталог.png);
+}
 .katalog_title{
     font-family: 'Anybody';
     font-style: italic;
@@ -592,6 +658,25 @@ textarea {
     filter: drop-shadow(16px 16px 20px #7E6327);
     color: #7E6327;
 }
+.katalog_title1{
+    font-family: 'Anybody';
+    font-style: italic;
+    font-weight: 700px;
+    font-size: 44px;
+    line-height: 24px; 
+    padding: 110px 320px 15px 420px; 
+    
+}
+.katalog_title1:hover, .katalog_title1:active{
+    font-family: 'Anybody';
+    font-style: italic;
+    font-weight: 700px;
+    font-size: 44px;
+    line-height: 24px; 
+    padding: 110px 320px 15px 420px; 
+    filter: drop-shadow(16px 16px 20px #7E6327);
+    color: #7E6327;
+}
 .katalog_cards{
  display: grid;
  grid-template-columns: repeat(3,1fr);
@@ -604,7 +689,11 @@ textarea {
 }
 
 .katalog_card_photo{
-    margin-bottom: 35px;
+    margin-bottom: 15px;
+
+}
+.katalog_card_photo1{
+    margin-bottom: 15px;
 
 }
 .katalog_card_photo:hover, .katalog_card_photo:active{
@@ -619,7 +708,7 @@ textarea {
     color: #7E6327;
     font-size: 40px;
     line-height: 26px; 
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 .katalog_title-card:hover, .katalog_title-card:active{
     font-family: 'Anybody';
@@ -630,6 +719,14 @@ textarea {
     line-height: 26px; 
     margin-bottom: 35px;
     filter: drop-shadow(16px 16px 20px #7E6327);
+}
+.katalog_title-card1{
+    font-family: 'Anybody';
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+    line-height: 26px; 
+    margin-bottom: 15px;
 }
 
 .katalog_card_description{
@@ -854,6 +951,28 @@ textarea {
     font-size: 30px;
     line-height: 20px; 
     padding: 16px 0px 60px 0px; 
+    text-align: center;
+    filter: drop-shadow(16px 16px 20px #7E6327);
+    color: #7E6327;
+}
+.katalog_title1{
+    display: block;
+    font-family: 'Anybody';
+    font-style: italic;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 20px; 
+    padding: 90px 0px 60px 0px; 
+    text-align: center;
+}
+.katalog_title1:hover, .katalog_title1:active{
+    display: block;
+    font-family: 'Anybody';
+    font-style: italic;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 20px; 
+    padding: 90px 0px 60px 0px; 
     text-align: center;
     filter: drop-shadow(16px 16px 20px #7E6327);
     color: #7E6327;
