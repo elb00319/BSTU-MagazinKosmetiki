@@ -572,7 +572,6 @@ textarea {
 .info2{
     position: relative;
     left: 0px;
-    margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 35px;
@@ -731,6 +730,15 @@ textarea {
     line-height: 26px; 
     margin-bottom: 15px;
 }
+.title_calc{
+    font-family: 'Anybody';
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+    line-height: 26px; 
+    margin-bottom: 15px;
+    text-align: center;
+}
 
 .katalog_card_description{
     font-family: 'Anybody';
@@ -887,7 +895,36 @@ textarea {
 .address2:hover, .address2:active{
     opacity: .40;
 }
-
+.calc {
+    border: #7E6327 1px solid;
+    border-radius: 5px;
+    padding: 20px 0px 20px 100px;
+}
+#calc select {
+    cursor: pointer;
+}
+#calc p {
+    margin: 0;
+     }
+#calc p, #calc label {
+    background-color : #F9F5C6;
+    border: #7E6327 3px solid;
+    border-radius: 2px;
+    color : #7E6327;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    font-size: 100%;
+    margin-top: 3px;
+    padding: 2px 0;
+    text-align: center;
+}
+#calc p:hover, #calc label:hover {
+    background-color : #F9F5C6;
+}
+#calc #count {
+    width: 20px;
+}
 /*end end*/
 
 /*media start*/
@@ -1094,6 +1131,11 @@ textarea {
        }
     .header_nav1{
         text-align: center;
+    }
+    .calc {
+        border: #7E6327 1px solid;
+        border-radius: 3px;
+        padding: 0px 0px 0px 0px;
     }
     .header_list_katalog{
         display: flex;

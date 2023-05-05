@@ -56,3 +56,18 @@
 }());
 
 
+function calc() {
+        //ссылка на элемент Select (Тип услуги)
+        var type_services = document.getElementById("type_services");
+        //ссылка на чекбокс (Требуется верстка?)
+        var is_html = document.getElementById("is_html");
+        //ссылка на элемент input (Кол-во вариантов)
+        var count = document.getElementById("count");
+        //ссылка на элемент span, в него пишем стоимость
+        var result = document.getElementById("result");
+        var price = 0;
+        price += parseInt(type_services.options[type_services.selectedIndex].value);
+        price += (is_html.checked == true) ? parseInt(is_html.value) : 0;
+        price = parseInt(count.value) * price;
+        result.innerHTML = price;
+}

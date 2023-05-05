@@ -110,6 +110,27 @@
         <button type="button" class="button-card">5 BYN</button>
     </div>
     </section>
+    <div id="calc">
+        <div class="title_calc">
+        <h4>Рассчитайте стоимость товара:</h4>
+    </div>
+         <div class="calc">
+                <div><b>Стоимость: <span id="result">0</span></b> BYN</div>
+                <select onchange="calc()" id="type_services">
+                        <option value="0">Выбрать</option>
+                        <option value="45">Кисти для макияжа Kary May</option>
+                        <option value="8">Спонж для макияжа Kary May</option>
+                        <option value="16">Щипцы для ресниц Kary May</option>
+                        <option value="6">Точилка для карандашей</option>
+                        <option value="7">Апликаторы для теней</option>
+                        <option value="5">Щеточки для ресниц 30шт</option>
+                </select>
+                <p class="no_text_indent">Введите количество</p> <input type="text" id="count" value="1" onchange="calc()" />
+                <label for="is_html">Требуется доставка</label>
+                <input type="checkbox" onchange="calc()" value="5" id="is_html" />
+        </div>
+</div>
+<script src="./main.js"></script>
      <!--End start-->
  <section class="Adress" id="end">
     <div class="wrapper_end">

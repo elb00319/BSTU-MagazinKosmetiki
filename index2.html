@@ -111,6 +111,28 @@
         <button type="button" class="button-card">32 BYN</button>
     </div>
     </section>
+
+    <div id="calc">
+        <div class="title_calc">
+        <h4>Рассчитайте стоимость товара:</h4>
+    </div>
+         <div class="calc">
+                <div><b>Стоимость: <span id="result">0</span></b> BYN</div>
+                <select onchange="calc()" id="type_services">
+                        <option value="0">Выбрать</option>
+                        <option value="45">Увлажняющий крем для тела</option>
+                        <option value="28">Сыворотка для ухода за лицом</option>
+                        <option value="75">Набор шампунь + бальзам + маска</option>
+                        <option value="45">Ночной крем для ухода за лицом</option>
+                        <option value="28">Увлажняющий спрей для тела</option>
+                        <option value="32">Пилинг для сухой кожи головы</option>
+                </select>
+                <p class="no_text_indent">Введите количество</p> <input type="text" id="count" value="1" onchange="calc()" />
+                <label for="is_html">Требуется доставка</label>
+                <input type="checkbox" onchange="calc()" value="15" id="is_html" />
+        </div>
+</div>
+<script src="./main.js"></script>
      <!--End start-->
  <section class="Adress" id="end">
     <div class="wrapper_end">

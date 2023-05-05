@@ -97,7 +97,7 @@
         <button type="button" class="button-card">9 BYN</button>
         </div>
             <div class="katalog_card">
-        <h3 class="katalog_title-card1">Тени для глаз Kary Ma</h3>
+        <h3 class="katalog_title-card1">Тени для глаз Kary May</h3>
         <div class="katalog_card_2">
             <img src="./assets/png/картинка10.png" class="katalog_card_photo1" alt="10">
         </div>
@@ -111,6 +111,27 @@
         <button type="button" class="button-card">12 BYN</button>
     </div>
     </section>
+    <div id="calc">
+        <div class="title_calc">
+        <h4>Рассчитайте стоимость товара:</h4>
+    </div>
+         <div class="calc">
+                <div><b>Стоимость: <span id="result">0</span></b> BYN</div>
+                <select onchange="calc()" id="type_services">
+                        <option value="0">Выбрать</option>
+                        <option value="15">Тушь для ресниц</option>
+                        <option value="24">Тональный крем</option>
+                        <option value="14">Хайлайтер Kary May</option>
+                        <option value="9">Подводка для глаз Kary May</option>
+                        <option value="35">Тени для глаз Kary May</option>
+                        <option value="12">Помада для губ Kary May</option>
+                </select>
+                <p class="no_text_indent">Введите количество</p> <input type="text" id="count" value="1" onchange="calc()" />
+                <label for="is_html">Требуется доставка</label>
+                <input type="checkbox" onchange="calc()" value="5" id="is_html" />
+        </div>
+</div>
+<script src="./main.js"></script>
      <!--End start-->
  <section class="Adress" id="end">
     <div class="wrapper_end">
