@@ -71,3 +71,4 @@ function calc() {
         price = parseInt(count.value) * price;
         result.innerHTML = price;
 }
+
