@@ -900,13 +900,13 @@ textarea {
     border-radius: 5px;
     padding: 20px 0px 20px 100px;
 }
-#calc select {
+.calc select {
     cursor: pointer;
 }
-#calc p {
+.calc p {
     margin: 0;
      }
-#calc p, #calc label {
+.calc p, #calc label {
     background-color : #F9F5C6;
     border: #7E6327 3px solid;
     border-radius: 2px;
@@ -919,10 +919,10 @@ textarea {
     padding: 2px 0;
     text-align: center;
 }
-#calc p:hover, #calc label:hover {
+.calc p:hover, #calc label:hover {
     background-color : #F9F5C6;
 }
-#calc #count {
+.calc #count {
     width: 20px;
 }
 
