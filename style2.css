@@ -1,0 +1,87 @@
+.body1 {
+    padding: 10px;
+  }
+  
+  .carousel {
+    position: relative;
+    padding: 10px 200px;
+    border: 1px solid #F9F5C6;
+    border-radius: 15px;
+  }
+  
+  .carousel img {
+    width: 130px;
+    height: 130px;
+    display: block;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 60px;
+    padding: 15px;
+    border-radius: 40px;
+    border: 1px solid#7E6327;
+    font-size: 24px;
+    line-height: 24px;
+    color: #7E6327;
+    display: block;
+  }
+  
+  .arrow:focus {
+    outline: none;
+  }
+  
+  .arrow:hover {
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 7px;
+  }
+  
+  .next {
+    right: 7px;
+  }
+  
+  .gallery {
+    width: 390px;
+    overflow: hidden;
+  }
+  
+  .gallery ul {
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    /* удаляем пустое пространство между элементами li, у которых установлен inline-block */
+    /* http://davidwalsh.name/remove-whitespace-inline-block */
+    font-size: 0;
+  }
+  
+  .gallery li {
+    display: inline-block;
+  }
+  @media screen and (max-width: 1000px){
+    .carousel {
+        position: relative;
+        padding: 10px 150px;
+        border: 1px solid #F9F5C6;
+        border-radius: 15px;
+      }
+      @media screen and (max-width: 600px){
+        .carousel {
+            position: relative;
+            padding: 10px 80px;
+            border: 1px solid #F9F5C6;
+            border-radius: 15px;
+          }
+          .gallery {
+            width: 130px;
+            overflow: hidden;
+            padding-left: 0px;
+          }
+         
+      }
+
+  }
